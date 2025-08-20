@@ -14,3 +14,9 @@ function Obj(nome) {
         console.log('Exec...')
     }
 }
+
+const obj2 = new Obj('Cadeira')
+const obj3 = new Obj('mesa')
+console.log(obj2.nome)
+console.log(obj3.nome)
+obj3.exec()
